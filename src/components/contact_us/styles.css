@@ -1,0 +1,97 @@
+
+.contact-container{
+    text-align: center;
+    padding: 2% 2% 3%;
+}
+
+.contact-title {
+    color: #4b1827;
+    padding-bottom: 5%;
+}
+
+.contact-items {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 1%;
+}
+
+.vertical-line {
+    border-right: 1.5px solid #4b1827;
+}
+
+@media (max-width: 991.27px) {
+    .vertical-line {
+        border-right: none;
+    }
+}
+
+.img-icons {
+    width: 40px;
+    margin-top: 3%;
+    margin-bottom: 1rem;
+}
+
+.contact-name {
+    color: rgb(66, 68, 72);
+    font-size: 20px;
+}
+
+.contact-desc {
+    color: #8f8f8f;
+    user-select: text;
+    font-size: 14px;
+}
+
+.contact-desc:hover{
+    cursor: text;
+}
+
+.queries-container {
+    text-align: center;
+    background-color: #4b1827;
+    padding: 1% 2% 3%;
+}
+
+.queries-title {
+    color: #eebc79;
+    padding: 3% 0;
+}
+
+.query-input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 25px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.query-input:focus{
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+.query-input::placeholder{
+    color: rgba(245, 245, 245, 0.877);    
+}
+
+.query-submit-btn {
+    appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 8px 12px;
+  color: #4b1827;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+  font-weight: 700;
+}

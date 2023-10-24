@@ -1,0 +1,109 @@
+.navbar-regular {
+    padding: 2% 9% 1.5%;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-fixed {
+    padding: 2% 9% 1.5%;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item {
+    padding-left: 36px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+    font-weight:  300;
+}
+
+.link-text {
+    font-size: 1.2rem;
+    font-family: 'Nunito';
+    font-weight:  300;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+@media (max-width: 1150px){
+    .navbar-fixed, 
+    .navbar-regular {
+        padding: 2% 3.2% 1.5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-regular{
+        background-color: rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    .navbar-regular .nav-item .nav-link {
+        color: var(--bs-nav-link-color);
+        float: right !important;
+    }
+    .navbar-regular .nav-item .nav-link:hover{
+        color: #dfdfdf;
+    }
+    .navbar-fixed{
+        color: rgba(255, 255, 255, 0.55);
+    }
+    .navbar-fixed .nav-item .nav-link {
+        float: right !important;
+    }
+
+    .link-text {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+}
+
+.title-text {
+    padding-top: 5rem;
+}
+
+.title-img {
+    width: 85%;
+    -webkit-animation: spin 8s lineear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite, fade-in 2.5s ease-in-out;
+}
+@media (max-width: 991.27px) {
+    .title-img {
+        margin-top: 5%;
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+    min-width: 30%;
+    box-shadow: none !important;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+	outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,64 @@
+/* Color codes - marron 4b1827 gold eebc79 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+  
+body {
+    font-family: 'Nunito';
+    font-weight: 500;
+    background-color: whitesmoke !important;
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1 {  
+    font-family: 'Lora'; 
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    }
+
+h2 {
+    font-family: "Lora";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+h3 {    
+    font-family: 'Lora';  
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+::selection {
+    color: #eebc79;
+    background: #4b1827;
+  }
+
+#home {
+    background-color: #4b1827;
+    color: #eebc79;
+    text-align: center;
+}
+
+.title-container {
+    background-image: url('./title_section/Images/bg-pattern1.webp');
+    /* background-size: cover; */
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 10% 9% 5%;
+    /* margin-left: 3px; */
+    background-position: center;
+}
