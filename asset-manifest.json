@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.fd4aa0b7.css",
-    "main.js": "/website/static/js/main.bd6468eb.js",
+    "main.css": "/website/static/css/main.3fcf8646.css",
+    "main.js": "/website/static/js/main.1bdd8493.js",
     "static/media/img1.jpg": "/website/static/media/img1.489e7aaa3ccb1005acae.jpg",
     "static/media/5_.webp": "/website/static/media/5_.b6b1600e11b128f4b133.webp",
     "static/media/11.webp": "/website/static/media/11.d92f9153d5bf9f95834a.webp",
@@ -26,6 +26,7 @@
     "static/media/12_.webp": "/website/static/media/12_.f2d12a856c55d0ca41ae.webp",
     "static/media/4_.webp": "/website/static/media/4_.d3d78b6d2921dae07d8e.webp",
     "static/media/9_.webp": "/website/static/media/9_.13bf538208eb658b5d5d.webp",
+    "static/media/Dharni.jpeg": "/website/static/media/Dharni.79244251b48c77c20afc.jpeg",
     "static/media/1_.jpeg": "/website/static/media/1_.32eb1a751958a810ac01.jpeg",
     "static/media/bg-pattern1.webp": "/website/static/media/bg-pattern1.14676537e2963a8f704e.webp",
     "static/media/10_.webp": "/website/static/media/10_.de48dc03eb45f0c48519.webp",
@@ -36,11 +37,11 @@
     "static/media/queries.png": "/website/static/media/queries.c65b35be119083175ff8.png",
     "static/media/call.png": "/website/static/media/call.a28156adf18b0317297b.png",
     "index.html": "/website/index.html",
-    "main.fd4aa0b7.css.map": "/website/static/css/main.fd4aa0b7.css.map",
-    "main.bd6468eb.js.map": "/website/static/js/main.bd6468eb.js.map"
+    "main.3fcf8646.css.map": "/website/static/css/main.3fcf8646.css.map",
+    "main.1bdd8493.js.map": "/website/static/js/main.1bdd8493.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4aa0b7.css",
-    "static/js/main.bd6468eb.js"
+    "static/css/main.3fcf8646.css",
+    "static/js/main.1bdd8493.js"
   ]
 }
